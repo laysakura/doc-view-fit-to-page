@@ -20,7 +20,7 @@
     [[https://github.com/laysakura/doc-view-fit-to-page/raw/master/doc/img/Screenshot-fit-page.png]]
 
 * Installation
-  - Download [[http://][doc-view-fit-to-page.el]]
+  - Download [[http://github.com/laysakura/doc-view-fit-to-page/raw/master/doc-view-fit-to-page.el][doc-view-fit-to-page.el]]
   - Put it in a directory with load-path
   - =\M-x byte-compile-file [RET] /path/to/doc-view-fit-to-page.el [RET]=
   - Add the setting below on .emacs

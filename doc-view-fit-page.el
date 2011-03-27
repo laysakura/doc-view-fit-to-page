@@ -1,8 +1,5 @@
 ;;; Fit-to-page extension for DocViewMode
 
-;; Copyright (c) 2011, Sho Nakatani [@laysakura on twitter]
-;; All rights reserved.
-
 (require 'doc-view)
 
 (defconst doc-view-tmp-png-path "/tmp/doc-view-tmp.png")

@@ -7,17 +7,17 @@
    This emacs lisp works for Emacs 23 or later.
 
 * Screenshots
-  #+CAPTION: Just after opening a PDF in DocViewMode
-  [[https://github.com/laysakura/doc-view-fit-to-page/raw/master/doc/img/Screenshot-just-after-display.png]]
+  - Just after opening a PDF in DocViewMode
+    [[https://github.com/laysakura/doc-view-fit-to-page/raw/master/doc/img/Screenshot-just-after-display.png]]
 
-  #+CAPTION: Push 'h' key and call 'doc-view-fit-height
-  [[https://github.com/laysakura/doc-view-fit-to-page/raw/master/doc/img/Screenshot-fit-height.png]]
+  - Push 'h' key and call 'doc-view-fit-height
+    [[https://github.com/laysakura/doc-view-fit-to-page/raw/master/doc/img/Screenshot-fit-height.png]]
 
-  #+CAPTION: Push 'w' key and call 'doc-view-fit-width
-  [[https://github.com/laysakura/doc-view-fit-to-page/raw/master/doc/img/Screenshot-fit-width.png]]
+  - Push 'w' key and call 'doc-view-fit-width
+    [[https://github.com/laysakura/doc-view-fit-to-page/raw/master/doc/img/Screenshot-fit-width.png]]
 
-  #+CAPTION: Push 'f' key and call 'doc-view-fit-page
-  [[https://github.com/laysakura/doc-view-fit-to-page/raw/master/doc/img/Screenshot-fit-page.png]]
+  - Push 'f' key and call 'doc-view-fit-page
+    [[https://github.com/laysakura/doc-view-fit-to-page/raw/master/doc/img/Screenshot-fit-page.png]]
 
 * Installation
   - Download [[http://][doc-view-fit-to-page.el]]

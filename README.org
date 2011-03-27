@@ -1,0 +1,42 @@
+#+TITLE: Fit-to-page extension for DocViewMode
+#+AUTHOR: Sho Nakatani (中谷 翔)
+
+* What's this?
+  *Fit-to-page extension for DocViewMode* is a simple extension for
+   DocViewMode. It allows PDF/PS images to fit to a Emacs buffer.
+   This emacs lisp works for Emacs 23 or later.
+
+* Screenshots
+  #+CAPTION: Just after opening a PDF in DocViewMode
+  [[https://github.com/laysakura/doc-view-fit-to-page/raw/master/doc/img/Screenshot-just-after-display.png]]
+
+  #+CAPTION: Push 'h' key and call 'doc-view-fit-height
+  [[https://github.com/laysakura/doc-view-fit-to-page/raw/master/doc/img/Screenshot-fit-height.png]]
+
+  #+CAPTION: Push 'w' key and call 'doc-view-fit-width
+  [[https://github.com/laysakura/doc-view-fit-to-page/raw/master/doc/img/Screenshot-fit-width.png]]
+
+  #+CAPTION: Push 'f' key and call 'doc-view-fit-page
+  [[https://github.com/laysakura/doc-view-fit-to-page/raw/master/doc/img/Screenshot-fit-page.png]]
+
+* Installation
+  - Download [[http://][doc-view-fit-to-page.el]]
+  - Put it in a directory with load-path
+  - =\M-x byte-compile-file [RET] /path/to/doc-view-fit-to-page.el [RET]=
+  - Add the setting below on .emacs
+    : (require 'doc-view-fit-page)
+    : (add-hook 'doc-view-mode-hook
+    :           '(lambda ()
+    :              (local-set-key "f" 'doc-view-fit-page)
+    :              (local-set-key "w" 'doc-view-fit-width)
+    :              (local-set-key "h" 'doc-view-fit-height)))
+
+
+* Use it!
+  - Open a PDF or PS file by \C-x \C-f (find-file)
+    - If you opened PS file and texts are displayed, you need to type
+      \C-c \C-c (doc-view-mode-toggle-display)
+  - Type 'f', 'w', or 'h' key and enjoy Fit-to-page extension for DocViewMode!
+
+* Follow Me on Twitter
+  I'm on [[http://twitter.com/laysakura][@laysakura]] waiting for you!
